@@ -1,0 +1,36 @@
+
+---
+
+# 📄 2. `.gitignore`
+
+Este archivo le dice a GitHub **qué NO subir**.
+
+👉 Copia y pega esto:
+
+```gitignore
+# Entornos virtuales
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.log
+
+# Carpetas que NO debes subir
+Lib/
+Scripts/
+share/
+etc/
+site-packages/
+
+# Archivos de configuración
+.env
